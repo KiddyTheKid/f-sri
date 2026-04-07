@@ -6,11 +6,11 @@
     <razonSocial>SANDRA EDITH PILATAXI PESANTES</razonSocial>
     <nombreComercial>Bazar y papelería Buena Nota</nombreComercial>
     <ruc>0915924187001</ruc>
-    <claveAcceso>2703202601091592418700110010010000000389987343114</claveAcceso>
+    <claveAcceso>2703202601091592418700110010010000000461169080615</claveAcceso>
     <codDoc>01</codDoc>
     <estab>001</estab>
     <ptoEmi>001</ptoEmi>
-    <secuencial>000000038</secuencial>
+    <secuencial>000000046</secuencial>
     <dirMatriz>Cdla. Martha de Roldoz Mz 208 V1</dirMatriz>
   </infoTributaria>
   <infoFactura>
@@ -20,35 +20,35 @@
     <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
     <razonSocialComprador>Consumidor Final</razonSocialComprador>
     <identificacionComprador>9999999999</identificacionComprador>
-    <totalSinImpuestos>3.73</totalSinImpuestos>
+    <totalSinImpuestos>-0.87</totalSinImpuestos>
     <totalDescuento>0.00</totalDescuento>
     <totalConImpuestos>
       <totalImpuesto>
         <codigo>2</codigo>
         <codigoPorcentaje>2</codigoPorcentaje>
-        <baseImponible>3.73</baseImponible>
-        <valor>0.02</valor>
+        <baseImponible>-0.87</baseImponible>
+        <valor>0.12</valor>
       </totalImpuesto>
     </totalConImpuestos>
     <propina>0.00</propina>
-    <importeTotal>4.29</importeTotal>
+    <importeTotal>-1.00</importeTotal>
     <moneda>DOLAR</moneda>
   </infoFactura>
   <detalles>
     <detalle>
-      <codigoPrincipal>13996</codigoPrincipal>
-      <descripcion>BOLIGRAFO TRIANGOOD ROJA</descripcion>
-      <cantidad>30.0</cantidad>
-      <precioUnitario>0.12</precioUnitario>
+      <codigoPrincipal>21427</codigoPrincipal>
+      <descripcion>LIQUIPAPER POINTER 10 ML. 2 EN 1</descripcion>
+      <cantidad>-1.0</cantidad>
+      <precioUnitario>0.87</precioUnitario>
       <descuento>0.00</descuento>
-      <precioTotalSinImpuesto>0.12</precioTotalSinImpuesto>
+      <precioTotalSinImpuesto>0.87</precioTotalSinImpuesto>
       <impuestos>
         <impuesto>
           <codigo>2</codigo>
           <codigoPorcentaje>2</codigoPorcentaje>
           <tarifa>12.00</tarifa>
-          <baseImponible>0.12</baseImponible>
-          <valor>0.02</valor>
+          <baseImponible>0.87</baseImponible>
+          <valor>0.13</valor>
         </impuesto>
       </impuestos>
     </detalle>
@@ -57,19 +57,4 @@
     <campoAdicional nombre="Email">sinfactura@cliente.com</campoAdicional>
     <campoAdicional nombre="Teléfono">0000000000</campoAdicional>
   </infoAdicional>
-  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
-    <ds:SignedInfo>
-      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
-      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
-      <ds:Reference URI="#comprobante">
-        <ds:Transforms>
-          <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
-        </ds:Transforms>
-        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-        <ds:DigestValue>KugSXksfoG5NjSpQnmlvwVLXeK6nSYk/NJB97ZyHEkE=</ds:DigestValue>
-      </ds:Reference>
-    </ds:SignedInfo>
-    <ds:SignatureValue>
-      ilZEBqPYa/ze+cyTzcog+wziAbbbbK6wo5TUvoZeNjx5omxDErtdYfhLg0Gwb7ABhuZ0Z98LxrZoVK4DXCs2zaDsw6ZPuDADCiM3Raa6lLTf66mHt0RkyP4Xx66gCB7AzcK7jD1avI4xWi1JYccdI8yB1Mma63AgqPj0ZAEZMOKKaEEmhy4vJ3F2tfI3OswvD+Zla8nyTnTiwr3WxL6ZMCapA2ZG4f/ULodFFKFzn1eojSIioVe/O6TExeOZ/5M8mOKwSzXWRcTFpyRRm0alugSoiunmahmrJHw7O/74o/iBSo69EZI8IW2py5SQUMihqdS6WI53dfIVisSNV9luQw==</ds:SignatureValue>
-  </ds:Signature>
-</factura>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-e89031f9-8423-41eb-991d-57f837f2f3af"><ds:SignedInfo Id="SignedInfo-6ec07686-6b15-4b9b-b096-194a2dcf923a"><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference Id="DocumentRef-41c184a0-aa81-4eff-b8c8-42f92bcbd776" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>Xo8Tqhx2a3TvWjfldfKhCSLYi54=</ds:DigestValue></ds:Reference><ds:Reference Id="SignedPropertiesRef-5a899eac-8e8d-4c8c-b015-1aae4ddb4823" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-fd268bda-751c-4214-96bc-fdaed6b61b12"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>DOVOM0jlrLO2/f5rXS1Q3J/zwSg=</ds:DigestValue></ds:Reference><ds:Reference Id="CertificateRef-34399522-2893-495c-b6e2-37f2ad0b197f" URI="#Certificate-ea41c76a-85de-4803-af52-6caeeedff7d6"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>VzxOVqV5lmcK8ufyxws7Fy3ryzE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-74f2729e-e1a9-488b-b0e8-11df3cfe9f22">ONcaAnoBOekBAH/C1vE1rf60hHJY5hHwfzhVmmqFeIipcekFEvd0DOFMaX6PjXDsjEkxCuZp6DnzOklm0eRMxKg1ovSKrfkJYJ/yMKCbKRFadLVjvBoQyFQzwxadAcNUnCH9oyqfynw0hh0CXS6bfsgj/M2lUsxoAds0miWCZCByD0Z/lg4vqZEa2yJO3wVOu+kt5H0/bHxJJU5uOqMM53s9kvoKW4be56IYSzeaD4jx0rk5wgYE2gUpoPUj1DoZ6/eY/QkdpgWi4FtaTeIgIeVqe5orYomm8Ot/bAEzr4/0PLjFJYLayehFmKzZs1sUsGVBlMJyvjEQslX05PMWmw==</ds:SignatureValue><ds:KeyInfo Id="Certificate-ea41c76a-85de-4803-af52-6caeeedff7d6"><ds:X509Data><ds:X509Certificate>MIIJIzCCBwugAwIBAgIEZeX6cjANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNVBAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxBQyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTI1MDMyMDE2MzkyOVoXDTI3MDMyMDE3MDkyNlowgbYxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcwNQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4wDAYDVQQHEwVRVUlUTzE6MBEGA1UEBRMKMDIwMDA0NDUxNTAlBgNVBAMTHlNBTkRSQSBFRElUSCBQSUxBVEFYSSBQRVNBTlRFUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALYGAw385z6NFa7gHi+p8+k6R8FK5oH2nO3z6Nn5AxLjK1YTvM6SMtVMRiM9hJW51oPTNpEQ+h8PbxVzyEYU0oKDASQ9S2bjlButgag7Oh107kEk39mARzpaf/YRSz6eLubrE2isguUX8dogQ19nu+APG1UmrryZtXAAjatLbvQHGaCJtUttJG+eaAgTJewHipieo9IQeQ26qSiZEu6q+8bASz6jZUBhBJCMQLNlhAGCrBTMSDGgbj4me1mmxPGqI23M7RgMub6wjuG+c22X1zO9dCJrhttZQCtjXHt+gYerf6gM4nuuwGJzP5aPTRmwDO2AOKtJE7VplK9DY3iHPkkCAwEAAaOCBEowggRGMAsGA1UdDwQEAwIFIDCBkQYIKwYBBQUHAQEEgYQwgYEwPgYIKwYBBQUHMAGGMmh0dHA6Ly9vY3NwLmVjaS5iY2UuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMD8GCCsGAQUFBzABhjNodHRwOi8vb2NzcDEuZWNpLmJjZS5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3AwGgYKKwYBBAGCqDsDAQQMEwowOTE1OTI0MTg3MBwGCisGAQQBgqg7AwIEDhMMU0FORFJBIEVESVRIMBgGCisGAQQBgqg7AwMEChMIUElMQVRBWEkwGAYKKwYBBAGCqDsDBAQKEwhQRVNBTlRFUzAyBgorBgEEAYKoOwMHBCQTIkNsZGEuIE1hcnRoYSBkZSBSb2xkb3MgTXogMjA4IFYgMTEwGQYKKwYBBAGCqDsDCAQLEwkwMjIzOTAzNjgwGQYKKwYBBAGCqDsDCQQLEwlHVUFZQVFVSUwwFwYKKwYBBAGCqDsDDAQJEwdFQ1VBRE9SMB0GCisGAQQBgqg7AwsEDxMNMDkxNTkyNDE4NzAwMTAgBgorBgEEAYKoOwMzBBITEFNPRlRXQVJFLUFSQ0hJVk8wJQYDVR0RBB4wHIEac2FuZHJhZGVhY29zdGFAaG90bWFpbC5jb20wggHhBgNVHR8EggHYMIIB1DCCAdCgggHMoIIByIaB1mxkYXA6Ly9iY2VxbGRhcHN1YnAxLmJjZS5lYy9jbj1DUkwyMTg5LGNuPUFDJTIwQkFOQ08lMjBDRU5UUkFMJTIwREVMJTIwRUNVQURPUixsPVFVSVRPLG91PUVOVElEQUQlMjBERSUyMENFUlRJRklDQUNJT04lMjBERSUyMElORk9STUFDSU9OLUVDSUJDRSxvPUJBTkNPJTIwQ0VOVFJBTCUyMERFTCUyMEVDVUFET1IsYz1FQz9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2WGNGh0dHA6Ly93d3cuZWNpLmJjZS5lYy9DUkwvZWNpX2JjZV9lY19jcmxmaWxlY29tYi5jcmykgbYwgbMxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcwNQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4wDAYDVQQHEwVRVUlUTzElMCMGA1UEAxMcQUMgQkFOQ08gQ0VOVFJBTCBERUwgRUNVQURPUjEQMA4GA1UEAxMHQ1JMMjE4OTAfBgNVHSMEGDAWgBRIot8jHx34LFF6jAPNSTKlCcGUqzAdBgNVHQ4EFgQUgoQIpsb8hQREmP0arKlp5RiXuIswCQYDVR0TBAIwADAaBgkqhkiG9n0HQQAEDTALGwVWMTAuMAMCBDAwDQYJKoZIhvcNAQELBQADggIBAFWKwH6eRbUiAVE7gbOYUyh2dA5P2wR08IINH/irbhVBww8u2/2BvdbUY6646FuyzIffLfJgIn3KF50CTYgNbVmIRJjhD9Mtdz3mrIOh/2XDFYFHIy0hp15C2JRkI5mYENJWQctkwku4gEJmMhm6XY8nDrLn7rE3pg4KfDfYiEjtiMJssMk5Cb9HNh8qKfbjoWkmJLJDyFg+KtdVz9XUPT0GOx8IUTtA3/Mn3v71l0OklsQsSJG0qtK+cvqR4yBON2uTUjIR1lBw5+WLxw2xTPCdqsHRS+A2Vux8HLPKxL+WW/v/aD52J18p61IcLAZOP3Q80yLf+KJWr/gQC7y9XKrtSBhmKpg/7vzxsAaZYuH2HD3Ue9xykj2mLOefee2N7NrV/EDiFFqj2nI94x8Y6NhMpCKurDijRz1sMR9TE4J6g0bcyM7qnpAVQiyl3Yf4vuLIhELJiLBOe4PjhZNIA5dFAi93RVUh0EijiUdfGHYTQe7uaQtiRBGb32eZgkjENUAoGvk/x3lx9/kUQqLbG615JSY7dcImHrrJMLRNCNDMVm8tdJzb577RpnFEkUVJqqbyp22HmHeu8NHV1jUKC4wMmUkFYiIRFdUNrVJP9PGg9AMyawTcgbFCGlrUVnd7tCKM3oXh4DTnU66+GQbvGUnLrlRr8QnAa32JoUkjrBz2</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>IpeDNgmAdnRDOHKQeBMjIUlCUYFXlSdnUiGJhZFoQ5dRMYAzQAI5BUEkciEhmUhIGXdoeRMTh2liZBIVQWWQiRQSUmFlBGU0EiGAMxBog2OZYIQmIWQmYydjEWgTaDSRkgSDdiZHgRViiXUHUYlpWYIChnJ0ATVCZ1AUYpGCkBGGiCc4lCN4STgnkGKGY4cAR4EImVdhJJQxcxc2h3c2g5WYJJYZmXQxcQZjV5UxRjAyMpYHdgUCVmkVgyGBAXNSSTBkRQKRWTlII0cjIjQogglgZhAnmIGFQmlEQigXhCNXlHiWiIIwcSGZCYg1hJeBgGCUABeUMEJiCFWFWQQWYpKDJ2RoOCOVIhiThlJxaFllkDOXFDV2UggkQiQXdJJjd5ljOJSElyWIM3M3GVJZByh3GUk=</ds:Modulus><ds:Exponent>ZVM=</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="SignatureObject-59c9f26a-af31-4266-82eb-31cf29188826"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-e89031f9-8423-41eb-991d-57f837f2f3af"><xades:SignedProperties Id="SignedProperties-fd268bda-751c-4214-96bc-fdaed6b61b12"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-07T04:39:21.204+00:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>BRQaAEq/8eKCt2qrFO/oOswLMtE=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1709570674</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#DocumentRef-41c184a0-aa81-4eff-b8c8-42f92bcbd776"><xades:Description>Firma digital</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>
